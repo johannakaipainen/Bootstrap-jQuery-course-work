@@ -1,0 +1,101 @@
+/*
+https://www.w3schools.com/howto/howto_css_parallax.asp
+*/
+
+body,
+html {
+  height: 100%; /* this is a must for parallax. */
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 100%;
+}
+
+.parallax {
+  position: relative;
+  opacity: 0.8;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url('../img/IMG_9179.JPG');
+  height: 100%;
+}
+
+#img-2 {
+  background-image: url('../img/IMG_1124.JPG');
+  height: 100%;
+}
+
+#img-3 {
+  background-image: url('../img/IMG_1903.JPG');
+  height: 100%;
+}
+
+#img-4 {
+  background-image: url('../img/IMG_2599.jpg');
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  line-height: 2em;
+}
+
+.text {
+  padding: 30px 100px 30px 100px;
+  position: relative;
+  background-color: white;
+}
+
+.text h3 {
+  text-align: center;
+}
+
+#benefits {
+  list-style-type: none;
+}
+
+a {
+  color: #C7574C;;
+}
+
+a:hover {
+  text-decoration: none;
+  color: darksalmon;
+}
+
+#parallax_footer {
+    background-color: #F2E2E9;
+    margin-top: 0px;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. 
+  Increase/decrease the pixels if needed. Test what is the proper value 
+  for your larger screens and smaller screens. */
+
+@media screen and (max-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  .text {
+    padding: 30px 10px 30px 10px;
+    position: relative;
+  }
+}

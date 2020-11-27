@@ -1,0 +1,89 @@
+
+/* my colors
+
+#F2E2E9 
+#9C3E67
+#C7574C
+#C47245
+#2B1C14 
+*/
+
+body {
+    background-color: #F2E2E9;
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    max-width: 1500px;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    background-color:#C7574C;
+}
+
+h1, h2, h3 {
+    font-family: 'Syne Mono', monospace;
+}
+
+h1 {
+    color: #2B1C14;
+}
+
+h2 {
+    color :#9C3E67;
+    font-weight: bold;
+}
+
+h3 {
+    color: #C47245
+}
+
+nav li {
+    font-size: 19px;
+}
+
+footer {
+    background-color:#2B1C14;
+    color: #F2E2E9;
+    opacity: 0.9;
+}
+
+.hidden {
+    display:none;
+}
+.fa-question-circle {
+    color: grey;
+}
+
+.correct {
+    background-color: yellowgreen;
+}
+
+.incorrect {
+    background-color: salmon;
+}
+
+.explanation {
+    background-color: cornflowerblue;
+}
+
+figure a {
+    color: black;
+}
+
+figure a:hover {
+    text-decoration: none;
+    color:  #C47245
+}
+
+ a {
+    color: #C7574C;;
+}
+
+ a:hover {
+  text-decoration: none;
+  color: darksalmon;
+}
